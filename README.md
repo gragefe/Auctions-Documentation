@@ -24,14 +24,43 @@ You can import the file "Platform APIs Sequence Diagrams.drawio" in the https://
 
 ---
 
-## 📂 Project Structure
-```plaintext
-├── Auctions-Runtime-Api       # Responsible for handling data in the context of the public auction portal.
+# Auction Platform Repositories
 
-├── Auctions-Vehicles-Api      # Responsible for handling the vehicle context
-├── Auctions-Bids-Api          # Responsible for handling the auction context
-├── Auctions-Api               # Responsible for handling the bidding context
+This is the auction platform ecosystem. Below is a list of the repositories, each responsible for different contexts.
 
-├── Auctions-Vehicles-Service  # Responsible for handling vehicle context events
-├── Auctions-Bids-Service      # Responsible for handling auction context events
-└── Auctions-Service           # Responsible for handling bid context events
+---
+
+## 📊 API Repositories
+
+These repositories are responsible for handling data and requests for the different contexts of the auction platform.
+
+- [Auctions Runtime API](https://github.com/gragefe/Auctions-Runtime-Api)  
+  *Responsible for handling data in the context of the public auction portal.*
+
+- [Vehicles API](https://github.com/gragefe/Auctions-Vehicles-Api)  
+  *Responsible for handling the vehicle context.*
+
+- [Auctions API](https://github.com/gragefe/Auctions-Api)  
+  *Responsible for handling the auction context.*
+
+- [Bids API](https://github.com/gragefe/Auctions-Bids-Api)  
+  *Responsible for handling the bidding context.*
+
+---
+
+## ⚙️ Service Repositories
+
+These repositories handle the event-driven processing for each respective context within the auction platform.
+
+- [Vehicles Service](https://github.com/gragefe/Auctions-Vehicles-Service)  
+  *Responsible for handling vehicle context events.*
+
+- [Auctions Service](https://github.com/gragefe/Auctions-Service)  
+  *Responsible for handling auction context events.*
+
+- [Bids Service](https://github.com/gragefe/Auctions-Bids-Service)  
+  *Responsible for handling bid context events.*
+
+---
+
+Each of these repositories works together to provide a fully functional, scalable, and event-driven auction platform.
