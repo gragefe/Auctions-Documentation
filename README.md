@@ -34,9 +34,6 @@ This is the auction platform ecosystem. Below is a list of the repositories, eac
 
 These repositories are responsible for handling data and requests for the different contexts of the auction platform.
 
-- [Auctions Runtime API](https://github.com/gragefe/Auctions-Runtime-Api)  
-  *Responsible for handling data in the context of the public auction portal.*
-
 - [Vehicles API](https://github.com/gragefe/Auctions-Vehicles-Api)  
   *Responsible for handling the vehicle context.*
 
@@ -48,18 +45,23 @@ These repositories are responsible for handling data and requests for the differ
 
 ---
 
+- [Auctions Runtime API]  
+  *Responsible for handling data in the context of the public auction portal.*
+
+---
+
 ## ⚙️ Service Repositories
 
 These repositories handle the event-driven processing for each respective context within the auction platform.
 
-- [Vehicles Service](https://github.com/gragefe/Auctions-Vehicles-Service)  
-  *Responsible for handling vehicle context events.*
-
-- [Auctions Service](https://github.com/gragefe/Auctions-Service)  
-  *Responsible for handling auction context events.*
-
 - [Bids Service](https://github.com/gragefe/Auctions-Bids-Service)  
   *Responsible for handling bid context events.*
+  
+- [Vehicles Service]
+  *Responsible for handling vehicle context events.*
+
+- [Auctions Service] 
+  *Responsible for handling auction context events.*
 
 ---
 
