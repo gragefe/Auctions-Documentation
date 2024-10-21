@@ -10,7 +10,7 @@ This project includes a **Design System** created to show the components and usa
 
 ![AuctionDesignSystemPreview](https://github.com/user-attachments/assets/78222dfb-dad3-4cd1-b462-1bf2d836c580)
 
-You can import the file "Auction Platform Design System.drawio" in the https://draw.io/ to check it.
+You can import the file "Auction Platform Design System.drawio" in the https://draw.io/ to check it..
 
 ---
 
